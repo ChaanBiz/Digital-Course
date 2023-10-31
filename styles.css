@@ -222,6 +222,7 @@ footer .content .text .socials {
 }
 footer .content .text .socials a img {
   width: 30px;
+  margin: 0 5px;
 }
 footer .bottom {
   text-align: center;
