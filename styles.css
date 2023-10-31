@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:wght@100,200,300,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  padding: 30px 0 15px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-bottom: rgba(116, 64, 26, 0.1) solid 1px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  margin: 0 20px;
+  color: #74401A;
+  text-decoration: none;
+}
+
+section {
+  padding: 0 0 190px;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  color: #74401A;
+  margin-bottom: 100px;
+}
+.heading h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.heading span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+main #home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+main #home .image {
+  padding: 0 50px;
+  width: 600px;
+}
+main #home .image img {
+  width: 100%;
+}
+main #home .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
+  color: #74401A;
+}
+main #home .text .title {
+  margin-bottom: 70px;
+}
+main #home .text .title h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+main #home .text .title span {
+  font-size: 60px;
+}
+main #home .text .target {
+  width: 540px;
+}
+main #course .content div {
+  width: 420px;
+  margin: 0 50px;
+}
+main #course .content div h3 {
+  font-size: 25px;
+  color: #74401A;
+  margin-bottom: 20px;
+}
+main #course .content div h3 a {
+  color: #74401A;
+}
+
+/*# sourceMappingURL=styles.css.map */
