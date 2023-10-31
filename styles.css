@@ -106,6 +106,10 @@ main #course .content div h3 {
 main #course .content div h3 a {
   color: #74401A;
 }
+main #offers .content {
+  display: flex;
+  align-items: center;
+}
 main #offers .content .div .wrap {
   width: 600px;
   color: white;
@@ -146,6 +150,47 @@ main #offers .content .div .wrap .course .btn {
 main #offers .content .div .wrap .course .btn a {
   text-decoration: none;
   color: #74401A;
+}
+main #offers .content .div .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #offers .content .div .left .count {
+  color: #74401A;
+  display: flex;
+}
+main #offers .content .div .left .count .box {
+  display: flex;
+  margin: 5px;
+}
+main #offers .content .div .left .count .box h2 {
+  line-height: 14px;
+}
+main #content .div {
+  width: 650px;
+}
+main #content .div .box {
+  margin: 0 30px 50px;
+}
+main #content .div .box .head {
+  background-color: #74401A;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+main #content .div .box .head h4 {
+  font-weight: 600;
+}
+main #content .div .box .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #content .div .box .text p {
+  width: 500px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -116,47 +116,95 @@ main {
   }
 
   #offers {
-    .content .div {
-      .wrap {
-        width: 600px;
-        color: white;
-        .course {
-          background-color: #74401A;
-          position: relative;
+    .content {
+      display: flex;
+      align-items: center;
+      .div {
+        .wrap {
+          width: 600px;
+          color: white;
+          .course {
+            background-color: #74401A;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 30px;
+            padding: 70px 50px;
+            h4 {
+              font-size: 35px;
+              font-weight: 800;
+              text-transform: uppercase;
+              margin-bottom: 40px;
+              text-align: center;
+              span {
+                opacity: .5;
+                text-decoration: line-through;
+                padding-right: 11px;
+              }
+            }
+    
+            ul li {
+              font-weight: 300;
+              line-height: 22px;
+            }
+    
+            .btn {
+              position: absolute;
+              bottom: 3%;
+              background-color: white;
+              font-size: 19px;
+              padding: 5px 70px;
+              border-radius: 20px;
+              a {
+                text-decoration: none;
+                color: #74401A;
+              }
+            }
+          }
+        }
+        .left {
           display: flex;
           flex-direction: column;
           align-items: center;
+          .count {
+            color:#74401A;
+            display: flex;
+            .box {
+              display: flex;
+              margin: 5px;
+              h2 {
+                line-height: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #content {
+    .div {
+      width: 650px;
+      .box {
+        margin: 0 30px 50px;
+        .head {
+          background-color: #74401A;
+          color: white;
           border-radius: 30px;
-          padding: 70px 50px;
+          padding: 10px 20px;
+          font-size: 20px;
+          margin-bottom: 10px;
           h4 {
-            font-size: 35px;
-            font-weight: 800;
-            text-transform: uppercase;
-            margin-bottom: 40px;
-            text-align: center;
-            span {
-              opacity: .5;
-              text-decoration: line-through;
-              padding-right: 11px;
-            }
+            font-weight: 600;
           }
-  
-          ul li {
-            font-weight: 300;
-            line-height: 22px;
-          }
-  
-          .btn {
-            position: absolute;
-            bottom: 3%;
-            background-color: white;
-            font-size: 19px;
-            padding: 5px 70px;
-            border-radius: 20px;
-            a {
-              text-decoration: none;
-              color: #74401A;
-            }
+        }
+        .text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          p {
+            width: 500px;
           }
         }
       }
