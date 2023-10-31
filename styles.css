@@ -38,17 +38,17 @@ section {
   padding: 0 0 190px;
 }
 
-.heading {
+.heading, .who {
   width: 100%;
   text-align: center;
   color: #74401A;
   margin-bottom: 100px;
 }
-.heading h2 {
+.heading h2, .who h2 {
   font-size: 40px;
   font-weight: 800;
 }
-.heading span {
+.heading span, .who span {
   font-size: 20px;
   font-weight: 600;
 }
@@ -191,6 +191,48 @@ main #content .div .box .text {
 }
 main #content .div .box .text p {
   width: 500px;
+}
+
+footer .content {
+  margin-bottom: 85px;
+  align-items: center;
+}
+footer .content .pic img {
+  width: 486px;
+  border-radius: 30px;
+}
+footer .content .text {
+  margin: 0 50px;
+}
+footer .content .text .who {
+  width: 486px;
+}
+footer .content .text .who h2 {
+  margin-bottom: 30px;
+}
+footer .content .text .who p {
+  text-align: start;
+}
+footer .content .text .heading {
+  margin-bottom: 15px;
+}
+footer .content .text .socials {
+  display: flex;
+  justify-content: center;
+}
+footer .content .text .socials a img {
+  width: 30px;
+}
+footer .bottom {
+  text-align: center;
+  margin-bottom: 15px;
+}
+footer .bottom .note {
+  margin-bottom: 85px;
+}
+footer .bottom .note h3 {
+  font-size: 25px;
+  color: #74401A;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -39,7 +39,7 @@ section {
   padding: 0 0 190px;
 }
 
-.heading {
+.heading, .who {
   width: 100%;
   text-align: center;
   color: #74401A;
@@ -207,6 +207,54 @@ main {
             width: 500px;
           }
         }
+      }
+    }
+  }
+}
+
+footer {
+  .content {
+    margin-bottom: 85px;
+    align-items: center;
+    .pic img {
+      width: 486px;
+      border-radius: 30px;
+    }
+
+    .text {
+      margin: 0 50px;
+      .who {
+        width: 486px;
+        h2 {
+          margin-bottom: 30px;
+        }
+        p {
+          text-align: start;
+        }
+      }
+
+      .heading {
+        margin-bottom: 15px;
+      }
+
+      .socials {
+        display: flex;
+        justify-content: center;
+        a img {
+          width: 30px;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    text-align: center;
+    margin-bottom: 15px;
+    .note {
+      margin-bottom: 85px;
+      h3 {
+        font-size: 25px;
+        color: #74401A;
       }
     }
   }
