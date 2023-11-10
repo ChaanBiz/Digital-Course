@@ -123,6 +123,7 @@ main {
         .wrap {
           width: 600px;
           color: white;
+          margin-right: 50px;
           .course {
             background-color: #74401A;
             position: relative;
@@ -150,12 +151,11 @@ main {
             }
     
             .btn {
-              position: absolute;
-              bottom: 3%;
               background-color: white;
               font-size: 19px;
               padding: 5px 70px;
               border-radius: 20px;
+              margin-top: 20px;
               a {
                 text-decoration: none;
                 color: #74401A;

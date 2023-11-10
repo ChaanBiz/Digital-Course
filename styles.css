@@ -113,6 +113,7 @@ main #offers .content {
 main #offers .content .div .wrap {
   width: 600px;
   color: white;
+  margin-right: 50px;
 }
 main #offers .content .div .wrap .course {
   background-color: #74401A;
@@ -140,12 +141,11 @@ main #offers .content .div .wrap .course ul li {
   line-height: 22px;
 }
 main #offers .content .div .wrap .course .btn {
-  position: absolute;
-  bottom: 3%;
   background-color: white;
   font-size: 19px;
   padding: 5px 70px;
   border-radius: 20px;
+  margin-top: 20px;
 }
 main #offers .content .div .wrap .course .btn a {
   text-decoration: none;
