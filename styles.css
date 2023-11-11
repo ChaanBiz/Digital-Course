@@ -310,4 +310,12 @@ footer .bottom .note h3 {
   color: #74401A;
 }
 
+.ty {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
