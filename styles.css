@@ -90,13 +90,13 @@ section {
   line-height: 22px;
 }
 .full_course .wrap .course .btn {
-  background-color: white;
-  font-size: 19px;
-  padding: 5px 70px;
-  border-radius: 20px;
   margin-top: 20px;
 }
 .full_course .wrap .course .btn a {
+  background-color: white;
+  padding: 5px 70px;
+  border-radius: 20px;
+  font-size: 19px;
   text-decoration: none;
   color: #74401A;
 }
