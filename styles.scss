@@ -348,3 +348,10 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+.cancel {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

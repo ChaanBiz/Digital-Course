@@ -318,4 +318,11 @@ footer .bottom .note h3 {
   justify-content: center;
 }
 
+.cancel {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
