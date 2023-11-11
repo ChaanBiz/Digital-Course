@@ -160,6 +160,7 @@ main #offers .content .div .left {
 main #offers .content .div .left .count {
   color: #74401A;
   display: flex;
+  margin-top: 20px;
 }
 main #offers .content .div .left .count .box {
   display: flex;
