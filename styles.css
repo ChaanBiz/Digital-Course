@@ -238,4 +238,8 @@ footer .bottom .note h3 {
   color: #74401A;
 }
 
+.pay button {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */
