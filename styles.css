@@ -242,12 +242,6 @@ footer .bottom .note h3 {
 .pay button {
   cursor: pointer;
 }
-.pay .back button {
-  background-color: transparent;
-  border: none;
-  font-size: 20px;
-  padding: 20px 50px 0;
-}
 .pay .content .full_course .wrap {
   width: 500px;
 }
@@ -299,6 +293,21 @@ footer .bottom .note h3 {
 .pay .bottom {
   text-align: center;
   color: #A74F4F;
+}
+
+.back {
+  font-size: 20px;
+  padding: 20px 50px 0;
+}
+.back button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #74401A;
+}
+.back a {
+  text-decoration: none;
+  color: #74401A;
 }
 
 /*# sourceMappingURL=styles.css.map */

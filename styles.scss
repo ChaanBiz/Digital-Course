@@ -60,7 +60,6 @@ section {
   justify-content: center;
 }
 
-
 .full_course {
   .wrap {
     width: 600px;
@@ -269,14 +268,6 @@ footer {
   button {
     cursor: pointer;
   }
-  .back {
-    button {
-      background-color: transparent;
-      border: none;
-      font-size: 20px;
-      padding: 20px 50px 0;
-    }
-  }
   .content {
     .full_course {
       .wrap {
@@ -332,5 +323,20 @@ footer {
   .bottom {
     text-align: center;
     color: #A74F4F;
+  }
+}
+
+.back {
+  font-size: 20px;
+  padding: 20px 50px 0;
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #74401A;
+  }
+  a {
+    text-decoration: none;
+    color: #74401A;
   }
 }
