@@ -188,7 +188,7 @@ main {
 
   #content {
     .div {
-      width: 650px;
+      width: 40%;
       .box {
         margin: 0 30px 50px;
         .head {
@@ -354,4 +354,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+
 }
