@@ -72,7 +72,7 @@ section {
       align-items: center;
       border-radius: 30px;
       padding: 70px 80px;
-      h4 {
+      h3 {
         font-size: 35px;
         font-weight: 800;
         text-transform: uppercase;
@@ -356,10 +356,22 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
+  section {
+    padding: 0 0 130px;
+  }
+  .heading, .who {
+    margin-bottom: 70px;
+    h2 {
+      font-size: 35px;
+    }
+    span {
+      font-size: 18px;
+    }
+  }
   main {
     #home {
       .text {
-        padding: 0;
+        padding: 0 30px 0 0;
         .title {
           h1 {
             font-size: 55px;
@@ -379,7 +391,81 @@ footer {
       .full_course .wrap {
         margin-right: 0;
         margin-bottom: 30px;
+        .course {
+          padding: 40px 70px;
+          h3 {
+            font-size: 27px;
+          }
+        }
       }
     }
+    #content {
+      padding: 0 0 100px;
+    }
+  }
+  footer {
+    .content {
+      flex-direction:column-reverse;
+      .text {
+        margin-bottom: 30px;
+      }
+    }
+    .bottom {
+      .note {
+        padding: 0 5rem;
+        h3 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+      .copyright {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .heading, .who {
+    margin-bottom: 50px;
+    h2 {
+      font-size: 30px;
+    }
+    span {
+      font-size: 18px;
+    }
+  }
+  main {
+    #home {
+      flex-direction: column-reverse;
+      margin: 40px 0;
+      .image {
+        width: 40%;
+      }
+      .text {
+        padding: 0;
+        margin-bottom: 30px;
+      }
+    }
+    #course .content div {
+      margin: 0 30px;
+      width: 350px;
+    }
+    #offers .content .left .voucher {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 80%;
+      }
+    }
+    #content .div .box .head h4 {
+      font-size: 18px;
+    }
+  }
+  footer .content {
+    margin-bottom: 40px;
   }
 }

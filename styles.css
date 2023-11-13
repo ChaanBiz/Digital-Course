@@ -72,14 +72,14 @@ section {
   border-radius: 30px;
   padding: 70px 80px;
 }
-.full_course .wrap .course h4 {
+.full_course .wrap .course h3 {
   font-size: 35px;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 40px;
   text-align: center;
 }
-.full_course .wrap .course h4 span {
+.full_course .wrap .course h3 span {
   opacity: 0.5;
   text-decoration: line-through;
   padding-right: 11px;
@@ -325,8 +325,20 @@ footer .bottom .note h3 {
 }
 
 @media screen and (max-width: 1200px) {
+  section {
+    padding: 0 0 130px;
+  }
+  .heading, .who {
+    margin-bottom: 70px;
+  }
+  .heading h2, .who h2 {
+    font-size: 35px;
+  }
+  .heading span, .who span {
+    font-size: 18px;
+  }
   main #home .text {
-    padding: 0;
+    padding: 0 30px 0 0;
   }
   main #home .text .title h1 {
     font-size: 55px;
@@ -344,6 +356,73 @@ footer .bottom .note h3 {
   main #offers .content .full_course .wrap {
     margin-right: 0;
     margin-bottom: 30px;
+  }
+  main #offers .content .full_course .wrap .course {
+    padding: 40px 70px;
+  }
+  main #offers .content .full_course .wrap .course h3 {
+    font-size: 27px;
+  }
+  main #content {
+    padding: 0 0 100px;
+  }
+  footer .content {
+    flex-direction: column-reverse;
+  }
+  footer .content .text {
+    margin-bottom: 30px;
+  }
+  footer .bottom .note {
+    padding: 0 5rem;
+  }
+  footer .bottom .note h3 {
+    font-size: 20px;
+  }
+  footer .bottom .note p {
+    font-size: 15px;
+  }
+  footer .bottom .copyright {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .heading, .who {
+    margin-bottom: 50px;
+  }
+  .heading h2, .who h2 {
+    font-size: 30px;
+  }
+  .heading span, .who span {
+    font-size: 18px;
+  }
+  main #home {
+    flex-direction: column-reverse;
+    margin: 40px 0;
+  }
+  main #home .image {
+    width: 40%;
+  }
+  main #home .text {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  main #course .content div {
+    margin: 0 30px;
+    width: 350px;
+  }
+  main #offers .content .left .voucher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #offers .content .left .voucher img {
+    width: 80%;
+  }
+  main #content .div .box .head h4 {
+    font-size: 18px;
+  }
+  footer .content {
+    margin-bottom: 40px;
   }
 }
 
