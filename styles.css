@@ -490,6 +490,9 @@ footer .bottom .note h3 {
   footer .content {
     margin-bottom: 40px;
   }
+  .full_course .wrap .course h3 span {
+    padding-right: 9.5px;
+  }
   .pay .content .methods {
     padding: 0 30px 40px;
     flex-direction: column;
