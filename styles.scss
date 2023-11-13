@@ -127,7 +127,6 @@ section {
 
       ul li {
         font-weight: 300;
-        line-height: 22px;
       }
 
       .btn {
@@ -307,6 +306,9 @@ footer {
   button {
     cursor: pointer;
   }
+  .heading {
+    margin-bottom: 30px;
+  }
   .content {
     .full_course {
       .wrap {
@@ -315,46 +317,59 @@ footer {
           padding: 10px;
           background-color: transparent;
           color:#74401A;
+          h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+          }
           ul li {
             font-weight: 400;
-            font-size: 18px;
+            font-size: 16px;
           }
         }
       }
     }
-    .gcash {
-      width: 500px;
-      margin-right: 50px;
-      img {
-        width: 100%;
-        border-radius: 50px;
-      }
-    }
-    .paypal {
-      width: 500px;
+    .methods {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      padding: 30px 0;
-      color: #74401A;
-      h3 {
-        font-size: 35px;
-        text-align: center;
-        font-weight: 900;
-      }
-      .one {
+      width: 100%;
+      .gcash {
+        width: 50%;
+        margin-right: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         img {
-          width: 80%;
-          margin-bottom: 20px;
+          width: 100%;
+          border-radius: 50px;
         }
-        p {
+      }
+      .paypal {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px 0;
+        color: #74401A;
+        h3 {
+          font-size: 35px;
           text-align: center;
-          font-size: 18px;
-          font-weight: 500;
+          font-weight: 900;
+        }
+        .one {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          img {
+            width: 80%;
+            margin-bottom: 20px;
+          }
+          p {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+          }
         }
       }
     }
@@ -366,12 +381,12 @@ footer {
 }
 
 .back {
-  font-size: 20px;
+  font-size: 18px;
   padding: 20px 50px 0;
   button {
     background-color: transparent;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #74401A;
   }
   a {
@@ -465,6 +480,20 @@ footer {
       }
     }
   }
+  .pay {
+    .content {
+      flex-direction: column;
+      .full_course .wrap {
+        width: 100%;
+      }
+      .methods {
+        padding: 0 50px 40px;
+      }
+    }
+    .bottom {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -507,6 +536,29 @@ footer {
   }
   footer .content {
     margin-bottom: 40px;
+  }
+  .pay {
+    .content {
+      .methods {
+        padding: 0 30px 40px;
+        flex-direction: column;
+        .gcash {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 60%;
+          }
+        }
+        .paypal {
+          width: 100%;
+          h3 {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
   }
 }
 
