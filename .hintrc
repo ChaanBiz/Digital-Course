@@ -6,6 +6,17 @@
     "defaults",
     "not ie 11",
     "not and_ff <= 118",
-    "not firefox <= 118"
-  ]
+    "not firefox <= 118",
+    "not ios_saf <= 17.1",
+    "not safari <= 17.1"
+  ],
+  "hints": {
+    "button-type": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
+    ]
+  }
 }
