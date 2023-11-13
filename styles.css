@@ -62,11 +62,11 @@ header ul li a {
 }
 
 .hamburger.is-active:before {
-  transform: rotate(-45deg) translate(-3px, 1px);
+  transform: rotate(-40deg) translate(-2px, 2px);
 }
 
 .hamburger.is-active:after {
-  transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(40deg) translate(-3px, -5px);
 }
 
 .hamburger.is-active .bar {
@@ -520,6 +520,9 @@ footer .bottom .note h3 {
   }
 }
 @media screen and (max-width: 650px) {
+  header {
+    padding: 15px 50px;
+  }
   header ul {
     display: none;
   }
@@ -527,7 +530,7 @@ footer .bottom .note h3 {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 38px;
+    top: 55px;
     right: -100%;
     width: 50%;
     height: 100vh;
@@ -535,6 +538,7 @@ footer .bottom .note h3 {
     transition: 0.4s;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(20px);
+    border-left: rgba(116, 64, 26, 0.2) 0.5px solid;
   }
   .mobile-nav a {
     text-decoration: none;
@@ -547,7 +551,7 @@ footer .bottom .note h3 {
     padding: 15px 0 15px 30px;
   }
   .mobile-nav a:hover {
-    color: rgb(143, 96, 255);
+    color: #8f4b1b;
   }
   .mobile-nav.is-active {
     right: 0;
