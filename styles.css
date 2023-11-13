@@ -612,6 +612,39 @@ footer .bottom .note h3 {
   .hamburger {
     display: block;
   }
+  .full_course .wrap {
+    margin-right: 0;
+    margin: 0 10px 30px;
+  }
+  main #home .text .target {
+    width: 100%;
+    padding: 0 20px;
+  }
+  main #offers .content li {
+    font-size: 15px;
+  }
+  main #content {
+    padding: 0 10px 30px;
+  }
+  main #content .div .box {
+    margin: 0 20px 40px;
+  }
+  main #content .div .box .text {
+    padding: 0 20px;
+  }
+  footer .content .text {
+    margin: 0 20px;
+  }
+  footer .content .text .who {
+    width: 100%;
+  }
+  footer .content .pic {
+    padding: 0 20px;
+  }
+  footer .content .pic img {
+    width: 100%;
+    border-radius: 20px;
+  }
   .pay .content .methods .gcash img {
     width: 90%;
     border-radius: 20px;

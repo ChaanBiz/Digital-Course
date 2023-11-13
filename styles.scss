@@ -74,7 +74,6 @@ header {
 	opacity: 0;
 }
 
-
 section {
   padding: 0 0 190px;
   padding-top: 5rem;
@@ -672,6 +671,48 @@ footer {
   
   .hamburger {
     display: block;
+  }
+
+  .full_course .wrap {
+    margin-right: 0;
+    margin: 0 10px 30px;
+  }
+
+  main {
+    #home .text .target {
+      width: 100%;
+      padding: 0 20px;
+    }
+    #offers .content {
+      li {
+        font-size: 15px;
+      }
+    }
+    #content {
+      padding: 0 10px 30px;
+      .div .box {
+        margin: 0 20px 40px;
+        .text {
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+
+  footer .content {
+    .text {
+      margin: 0 20px;
+      .who {
+        width: 100%;
+      }
+    }
+    .pic {
+      padding: 0 20px;
+      img {
+        width: 100%;
+        border-radius: 20px;
+      }
+    }
   }
 
   .pay .content .methods .gcash img {
