@@ -111,16 +111,18 @@ section {
       align-items: center;
       border-radius: 30px;
       padding: 70px 80px;
-      h3 {
-        font-size: 35px;
-        font-weight: 800;
-        text-transform: uppercase;
+      .head {
         margin-bottom: 40px;
-        text-align: center;
-        span {
-          opacity: .5;
-          text-decoration: line-through;
-          padding-right: 13px;
+        h3 {
+          font-size: 35px;
+          font-weight: 800;
+          text-transform: uppercase;
+          text-align: center;
+          span {
+            opacity: .5;
+            text-decoration: line-through;
+            padding-right: 13px;
+          }
         }
       }
 
@@ -580,9 +582,11 @@ footer {
     margin-bottom: 30px;
     .course {
       padding: 40px 50px;
-      h3 {
-        font-size: 25px;
+      .head {
         margin-bottom: 20px;
+        h3 {
+          font-size: 25px;
+        }
       }
     }
   }

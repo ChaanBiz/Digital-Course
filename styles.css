@@ -111,14 +111,16 @@ section {
   border-radius: 30px;
   padding: 70px 80px;
 }
-.full_course .wrap .course h3 {
+.full_course .wrap .course .head {
+  margin-bottom: 40px;
+}
+.full_course .wrap .course .head h3 {
   font-size: 35px;
   font-weight: 800;
   text-transform: uppercase;
-  margin-bottom: 40px;
   text-align: center;
 }
-.full_course .wrap .course h3 span {
+.full_course .wrap .course .head h3 span {
   opacity: 0.5;
   text-decoration: line-through;
   padding-right: 13px;
@@ -531,9 +533,11 @@ footer .bottom .note h3 {
   .full_course .wrap .course {
     padding: 40px 50px;
   }
-  .full_course .wrap .course h3 {
-    font-size: 25px;
+  .full_course .wrap .course .head {
     margin-bottom: 20px;
+  }
+  .full_course .wrap .course .head h3 {
+    font-size: 25px;
   }
   main #home {
     margin: 0;

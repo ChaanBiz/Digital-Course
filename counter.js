@@ -7,7 +7,8 @@ lh2 = document.getElementById("label_h2"),
 lspan = document.getElementById("label_span"),
 note = document.getElementById("claim_note"),
 dh2 = document.getElementById("discount_h2"),
-directions = document.getElementById("directions")
+directions = document.getElementById("directions"),
+price = document.getElementById("price")
 
 let endDate = new Date(2023, 10, 15, 7, 4)
 let endTime = endDate
