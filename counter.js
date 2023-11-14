@@ -8,9 +8,9 @@ lspan = document.getElementById("label_span"),
 note = document.getElementById("claim_note"),
 dh2 = document.getElementById("discount_h2"),
 directions = document.getElementById("directions"),
-price = document.getElementById("price")
+price = document.getElementById("price2")
 
-let endDate = new Date(2023, 10, 15, 7, 4)
+let endDate = new Date(2023, 10, 15, 7, 19)
 let endTime = endDate
 
 function countdown() {
@@ -27,6 +27,7 @@ function countdown() {
 
   if (endTime < todayDate) {
     clearInterval(i)
+    price.textContent = `₱1799.00 | $32.00`
   } else {
     let dys = Math.floor(remainingTime / oneDay)
     let hrs = Math.floor((remainingTime % oneDay) / oneHr)
